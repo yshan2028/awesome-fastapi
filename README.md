@@ -196,33 +196,33 @@
 
 ### Talks (演讲)
 
-- [PyConBY 2020: Serve ML models easily with FastAPI](https://www.youtube.com/watch?v=z9K5pwb0rt8) - From the talk by Sebastian Ramirez you will learn how to easily build a production-ready web (JSON) API for your ML models with FastAPI, including best practices by default.
-- [PyCon UK 2019: FastAPI from the ground up](https://www.youtube.com/watch?v=3DLwPcrE5mA) - This talk shows how to build a simple REST API for a database from the ground up using FastAPI.
+- [PyConBY 2020: Serve ML models easily with FastAPI](https://www.youtube.com/watch?v=z9K5pwb0rt8) - 来自 Sebastian Ramirez 的演讲，你将了解如何使用 FastAPI 轻松构建用于机器学习模型的生产就绪 Web（JSON）API，包括默认的最佳实践。
+- [PyCon UK 2019: FastAPI from the ground up](https://www.youtube.com/watch?v=3DLwPcrE5mA) - 这个演讲展示了如何使用 FastAPI 从头开始构建一个简单的 REST API 用于数据库。
 
 ### Videos (视频)
 
-- [Building a Stock Screener with FastAPI](https://www.youtube.com/watch?v=5GorMC2lPpk) - A you build a web-based stock screener with FastAPI, you'll be introduced to many of FastAPI's features, including Pydantic models, dependency injection, background tasks, and SQLAlchemy integration.
-- [Building Web APIs Using FastAPI](https://www.youtube.com/watch?v=Pe66M8mn-wA) - Use FastAPI to build a web application programming interface (RESTful API).
-- [FastAPI - A Web Framework for Python](https://www.youtube.com/watch?v=PUhio8CprhI&list=PL5gdMNl42qynpY-o43Jk3evfxEKSts3HS) - See how to do numeric validations with FastAPI.
-- [FastAPI vs. Django vs. Flask](https://www.youtube.com/watch?v=9YBAOYQOzWs) - Which framework is best for Python in 2020? Which uses async/await the best? Which is the fastest?
-- [Serving Machine Learning Models As API with FastAPI](https://www.youtube.com/watch?v=mkDxuRvKUL8) - Build a machine learning API with FastAPI.
+- [Building a Stock Screener with FastAPI](https://www.youtube.com/watch?v=5GorMC2lPpk) - 你将使用 FastAPI 构建一个基于 Web 的股票筛选器，你将介绍 FastAPI 的许多功能，包括 Pydantic 模型、依赖注入、后台任务和 SQLAlchemy 集成。
+- [Building Web APIs Using FastAPI](https://www.youtube.com/watch?v=Pe66M8mn-wA) - 使用 FastAPI 构建 Web 应用程序编程接口（RESTful API）。
+- [FastAPI - A Web Framework for Python](https://www.youtube.com/watch?v=PUhio8CprhI&list=PL5gdMNl42qynpY-o43Jk3evfxEKSts3HS) - 查看如何使用 FastAPI 进行数字验证。
+- [FastAPI vs. Django vs. Flask](https://www.youtube.com/watch?v=9YBAOYQOzWs) - 2020 年 Python 中哪个框架最好？哪个最好地使用 async/await？哪个最快？
+- [Serving Machine Learning Models As API with FastAPI](https://www.youtube.com/watch?v=mkDxuRvKUL8) - 使用 FastAPI 构建机器学习 API。
 
 ### Courses (课程)
 
-- [Test-Driven Development with FastAPI and Docker](https://testdriven.io/courses/tdd-fastapi/) - Learn how to build, test, and deploy a text summarization microservice with Python, FastAPI, and Docker.
-- [Modern APIs with FastAPI and Python](https://training.talkpython.fm/courses/getting-started-with-fastapi) - A course designed to get you creating new APIs running in the cloud with FastAPI quickly.
-- [Full Web Apps with FastAPI Course](https://training.talkpython.fm/courses/full-html-web-applications-with-fastapi) - You'll learn to build full web apps with FastAPI, equivalent to what you can do with Flask or Django.
-- [The Definitive Guide to Celery and FastAPI](https://testdriven.io/courses/fastapi-celery/) - Learn how to add Celery to a FastAPI application to provide asynchronous task processing.
+- [Test-Driven Development with FastAPI and Docker](https://testdriven.io/courses/tdd-fastapi/) - 学习如何使用 Python、FastAPI 和 Docker 构建、测试和部署文本摘要微服务。
+- [Modern APIs with FastAPI and Python](https://training.talkpython.fm/courses/getting-started-with-fastapi) - 一个旨在帮助你快速创建新的 FastAPI API 并在云中运行的课程。
+- [Full Web Apps with FastAPI Course](https://training.talkpython.fm/courses/full-html-web-applications-with-fastapi) - 你将学习如何使用 FastAPI 构建完整的 Web 应用程序，等同于使用 Flask 或 Django 所能做的事情。
+- [The Definitive Guide to Celery and FastAPI](https://testdriven.io/courses/fastapi-celery/) - 学习如何将 Celery 添加到 FastAPI 应用程序中，以提供异步任务处理。
 
 ### Best Practices (最佳实践)
 
-- [FastAPI Best Practices](https://github.com/zhanymkanov/fastapi-best-practices) - Collection of best practices in a GitHub repo.
+- [FastAPI Best Practices](https://github.com/zhanymkanov/fastapi-best-practices) - 一个 GitHub 仓库中的最佳实践集合。
 
 ## Hosting
 
 ### PaaS (平台即服务)
 
-(Platforms-as-a-Service)
+(Platforms-as-a-Service) 
 
 - [Heroku](https://www.heroku.com/) ([Step-by-step tutorial](https://tutlinks.com/create-and-deploy-fastapi-app-to-heroku/), [ML model on Heroku tutorial](https://testdriven.io/blog/fastapi-machine-learning/))
 - [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
@@ -232,19 +232,19 @@
 
 ### IaaS (基础设施即服务)
 
-(Infrastructure-as-a-Service)
+(Infrastructure-as-a-Service) 
 
 - [AWS EC2](https://aws.amazon.com/ec2/)
 - [Google Compute Engine](https://cloud.google.com/compute/)
 - [Digital Ocean](https://www.digitalocean.com/)
 - [Linode](https://www.linode.com/)
 
-### Serverless (无服务器)
+### Serverless 
 
 Frameworks:
 
 - [Chalice](https://github.com/aws/chalice)
-- [Mangum](https://mangum.io/) - Adapter for running ASGI applications with AWS Lambda and API Gateway.
+- [Mangum](https://mangum.io/) - 用于在 AWS Lambda 和 API 网关上运行 ASGI 应用程序的适配器。
 - [Vercel](https://vercel.com/) - (formerly Zeit) ([example](https://github.com/paul121/fastapi-zeit-now)).
 
 Compute:
@@ -258,21 +258,21 @@ Compute:
 
 ### Boilerplate
 
-- [Full Stack FastAPI and PostgreSQL - Base Project Generator](https://github.com/tiangolo/full-stack-fastapi-postgresql) - Full stack, modern web application generator, which includes FastAPI, PostgreSQL, Docker, Celery, Vue frontend, automatic HTTPS and more (developed by the creator of FastAPI, [Sebastián Ramírez](https://github.com/tiangolo)).
-- [FastAPI and Tortoise ORM](https://github.com/prostomarkeloff/fastapi-tortoise) - Powerful but simple template for web APIs w/ FastAPI (as web framework) and Tortoise-ORM (for working via database without headache).
-- [FastAPI Model Server Skeleton](https://github.com/eightBEC/fastapi-ml-skeleton) - Skeleton app to serve machine learning models production-ready.
-- [cookiecutter-spacy-fastapi](https://github.com/microsoft/cookiecutter-spacy-fastapi) - Quick deployments of spaCy models with FastAPI.
-- [cookiecutter-fastapi](https://github.com/arthurhenrique/cookiecutter-fastapi) - Cookiecutter template for FastAPI projects using: Machine Learning, Poetry, Azure Pipelines and pytest.
-- [openapi-python-client](https://github.com/openapi-generators/openapi-python-client) - Generate modern FastAPI Python clients (via FastAPI) from OpenAPI.
-- [Pywork](https://github.com/vutran1710/YeomanPywork) - [Yeoman](https://yeoman.io/) generator to scaffold a FastAPI app.
-- [fastapi-gino-arq-uvicorn](https://github.com/leosussan/fastapi-gino-arq-uvicorn) - Template for a high-performance async REST API, in Python. FastAPI + GINO + Arq + Uvicorn (w/ Redis and PostgreSQL).
-- [FastAPI and React Template](https://github.com/Buuntu/fastapi-react) - Full stack cookiecutter boilerplate using FastAPI, TypeScript, Docker, PostgreSQL, and React.
-- [FastAPI Nano](https://github.com/rednafi/fastapi-nano) - Simple FastAPI template with factory pattern architecture.
+- [Full Stack FastAPI and PostgreSQL - Base Project Generator](https://github.com/tiangolo/full-stack-fastapi-postgresql) - 全栈，现代 Web 应用程序生成器，包括 FastAPI、PostgreSQL、Docker、Celery、Vue 前端、自动 HTTPS 等 (由 FastAPI 的开发者创建 , [Sebastián Ramírez](https://github.com/tiangolo))。
+- [FastAPI and Tortoise ORM](https://github.com/prostomarkeloff/fastapi-tortoise) - 强大但简单的 FastAPI（作为 Web 框架）和 Tortoise-ORM（用于通过数据库进行工作而无需头痛）的 Web API 模板。
+- [FastAPI Model Server Skeleton](https://github.com/eightBEC/fastapi-ml-skeleton) - 用于将机器学习模型部署到生产环境的骨架应用程序。
+- [cookiecutter-spacy-fastapi](https://github.com/microsoft/cookiecutter-spacy-fastapi) - 使用FastAPI部署spaCy模型。
+- [cookiecutter-fastapi](https://github.com/arthurhenrique/cookiecutter-fastapi) - 用于使用：机器学习、Poetry、Azure Pipelines 和 pytest 的 FastAPI 项目的 Cookiecutter 模板。
+- [openapi-python-client](https://github.com/openapi-generators/openapi-python-client) - 从 OpenAPI 生成现代 FastAPI Python 客户端（通过 FastAPI）。
+- [Pywork](https://github.com/vutran1710/YeomanPywork) - [Yeoman](https://yeoman.io/) - 生成器来构建 FastAPI 应用程序。
+- [fastapi-gino-arq-uvicorn](https://github.com/leosussan/fastapi-gino-arq-uvicorn) - 高性能异步 REST API 的模板，使用 Python。FastAPI + GINO + Arq + Uvicorn (w/ Redis and PostgreSQL)。
+- [FastAPI and React Template](https://github.com/Buuntu/fastapi-react) - 全栈 cookiecutter 模板，使用 FastAPI、TypeScript、Docker、PostgreSQL 和 React。
+- [FastAPI Nano](https://github.com/rednafi/fastapi-nano) - 简单的 FastAPI 模板，具有工厂模式架构。
 - [FastAPI template](https://github.com/s3rius/FastAPI-template) - Flexible, lightweight FastAPI project generator. It includes support for SQLAlchemy, multiple databases, CI/CD, Docker, and Kubernetes.
 - [FastAPI on Google Cloud Run](https://github.com/anthonycorletti/cloudrun-fastapi) - Boilerplate for API building with FastAPI, SQLModel, and Google Cloud Run.
-- [FastAPI with Firestore](https://github.com/anthonycorletti/firestore-fastapi) - Boilerplate for API building with FastAPI and Google Cloud Firestore.
-- [fastapi-alembic-sqlmodel-async](https://github.com/jonra1993/fastapi-alembic-sqlmodel-async) - This is a project template which uses FastAPI, Alembic, and async SQLModel as ORM.
-- [fastapi-starter-project](https://github.com/mirzadelic/fastapi-starter-project) - A project template which uses FastAPI, SQLModel, Alembic, Pytest, Docker, GitHub Actions CI.
+- [FastAPI with Firestore](https://github.com/anthonycorletti/firestore-fastapi) - Boilerplate for API building with FastAPI and Google Cloud Firestore. 
+- [fastapi-alembic-sqlmodel-async](https://github.com/jonra1993/fastapi-alembic-sqlmodel-async) - 这是一个使用 FastAPI、Alembic 和异步 SQLModel 作为 ORM 的项目模板。
+- [fastapi-starter-project](https://github.com/mirzadelic/fastapi-starter-project) - 一个使用 FastAPI、SQLModel、Alembic、Pytest、Docker、GitHub Actions CI 的项目模板。
 
 ### Docker Images
 
