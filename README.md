@@ -78,27 +78,26 @@
   - [Tutorial: Setting up Tortoise ORM with FastAPI](https://web.archive.org/web/20200523174158/https://robwagner.dev/tortoise-fastapi-setup/)
   - [Aerich](https://github.com/tortoise/aerich) - Tortoise ORM 迁移工具.
 - [SQLModel](https://sqlmodel.tiangolo.com/) - (由Pydantic和SQLAlchemy驱动)是一个用于与Python代码交互的SQL数据库的库，具有Python对象。
-  - [FastAPI Example](
 
-#### Query Builders
+#### Query Builders 
 
 - [asyncpgsa](https://github.com/CanopyTax/asyncpgsa) - 一个用于 [SQLAlchemy Core](https://docs.sqlalchemy.org/en/latest/core/) 的 [asyncpg](https://github.com/MagicStack/asyncpg)的包装器。
 - [Databases](https://github.com/encode/databases) - 异步sql查询构建器，基于 [SQLAlchemy Core](https://docs.sqlalchemy.org/en/latest/core/) 表达式语言。
 
-#### ODMs
+#### ODMs 
 
 - [Beanie](https://github.com/roman-right/beanie) - 用于MongoDB的异步Python ODM，基于 [Motor](https://motor.readthedocs.io/en/stable/) 和 [Pydantic](https://pydantic-docs.helpmanual.io/), 支持数据和模式迁移。
 - [MongoEngine](http://mongoengine.org/) - 一个用于Python的MongoDB文档对象映射器（类似于ORM，但用于文档数据库）。
 - [Motor](https://motor.readthedocs.io/) -  异步MongoDB的Python驱动程序。
 - [ODMantic](https://art049.github.io/odmantic/) - AsyncIO MongoDB ODM 集成 [Pydantic](https://pydantic-docs.helpmanual.io/)
 
-#### Other Tools
+#### Other Tools (其他工具)
 
 - [Pydantic-SQLAlchemy](https://github.com/tiangolo/pydantic-sqlalchemy) - 将SQLAlchemy模型转换为 [Pydantic](https://pydantic-docs.helpmanual.io/) 模型。
 - [FastAPI-CamelCase](https://nf1s.github.io/fastapi-camelcase/) - 利用 [Pydantic](https://pydantic-docs.helpmanual.io/) 的CamelCase JSON支持。
   - [CamelCase Models with FastAPI and Pydantic](https://medium.com/analytics-vidhya/camel-case-models-with-fast-api-and-pydantic-5a8acb6c0eee) - Accompanying blog post from the author of the extension. 随之而来的作者扩展的博客文章。
 
-### Developer Tools
+### Developer Tools (开发者工具)
 
 - [FastAPI Code Generator](https://github.com/koxudaxi/fastapi-code-generator) - 从OpenAPI文件创建FastAPI应用程序，从而实现模式驱动的开发。
 - [FastAPI Client Generator](https://github.com/dmontagu/fastapi_client) -  基于OpenAPI规范生成一个mypy和IDE友好的API客户端。
@@ -109,98 +108,98 @@
 - [Manage FastAPI](https://github.com/ycd/manage-fastapi) - CLI 工具，用于生成和管理 FastAPI 项目。
 - [msgpack-asgi](https://github.com/florimondmanca/msgpack-asgi) - 自动 [MessagePack](https://msgpack.org/) 内容协商。
 
-### Email
+### Email (邮箱)
 
 - [FastAPI Mail](https://github.com/sabuhish/fastapi-mail) - 轻量级邮件系统，用于发送电子邮件和附件（单个和批量）。
 
-### Utils
+### Utils (工具)
 
 - [ASGI Correlation ID](https://github.com/snok/asgi-correlation-id) - 请求ID日志中间件。
 - [FastAPI Cache](https://github.com/comeuplater/fastapi_cache) - 一个简单的轻量级缓存系统。
 - [FastAPI Cache](https://github.com/long2ice/fastapi-cache) - 一个用于缓存FastAPI响应和函数结果的工具，支持Redis，Memcached，DynamoDB和内存后端。
 - [FastAPI Chameleon](https://github.com/mikeckennedy/fastapi-chameleon) - 增加了Chameleon模板语言到FastAPI的集成。
-- [FastAPI Contrib](https://github.com/identixone/fastapi_contrib) - Opinionated set of utilities: pagination, auth middleware, permissions, custom exception handlers, MongoDB support, and Opentracing middleware.
-- [FastAPI CRUDRouter](https://github.com/awtkns/fastapi-crudrouter) - A FastAPI router that automatically creates and documents CRUD routes for your models.
-- [FastAPI Events](https://github.com/melvinkcx/fastapi-events) - Asynchronous event dispatching/handling library for FastAPI and Starlette.
-- [FastAPI FeatureFlags](https://github.com/Pytlicek/fastapi-featureflags) - Simple implementation of feature flags for FastAPI.
-- [FastAPI Jinja](https://github.com/AGeekInside/fastapi-jinja) - Adds integration of the Jinja template language to FastAPI.
-- [FastAPI Lazy](https://github.com/yezz123/fastapi-lazy) - Lazy package to start your project using FastAPI.
-- [FastAPI Limiter](https://github.com/long2ice/fastapi-limiter) - A request rate limiter for FastAPI.
-- [FastAPI MQTT](https://github.com/sabuhish/fastapi-mqtt) - An extension for the MQTT protocol.
-- [FastAPI Opentracing](https://github.com/wesdu/fastapi-opentracing) - Opentracing middleware and database tracing support for FastAPI.
-- [FastAPI Pagination](https://github.com/uriyyo/fastapi-pagination) - Pagination for FastAPI.
-- [FastAPI Plugins](https://github.com/madkote/fastapi-plugins) - Redis and Scheduler plugins.
-- [FastAPI ServiceUtils](https://github.com/skallfass/fastapi_serviceutils) - Generator for creating API services.
-- [FastAPI SocketIO](https://github.com/pyropy/fastapi-socketio) - Easy integration for FastAPI and SocketIO.
-- [FastAPI Utilities](https://github.com/dmontagu/fastapi-utils) - Reusable utilities: class-based views, response inferring router, periodic tasks, timing middleware, SQLAlchemy session, OpenAPI spec simplification.
-- [FastAPI Websocket Pub/Sub](https://github.com/authorizon/fastapi_websocket_pubsub) - The classic pub/sub pattern made easily accessible and scalable over the web and across your cloud in realtime.
-- [FastAPI Websocket RPC](https://github.com/authorizon/fastapi_websocket_rpc) - RPC (bidirectional JSON RPC) over Websockets made easy, robust, and production ready.
-- [OpenTelemetry FastAPI Instrumentation](https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-fastapi) - Library provides automatic and manual instrumentation of FastAPI web frameworks, instrumenting http requests served by applications utilizing the framework.
-- [Prerender Python Starlette](https://github.com/BeeMyDesk/prerender-python-starlette) - Starlette middleware for Prerender.
-- [Prometheus FastAPI Instrumentator](https://github.com/trallnag/prometheus-fastapi-instrumentator) - A configurable and modular Prometheus Instrumentator for your FastAPI application.
-- [SlowApi](https://github.com/laurents/slowapi) - Rate limiter (based on [Flask-Limiter](https://flask-limiter.readthedocs.io)).
-- [Starlette Context](https://github.com/tomwojcik/starlette-context) - Allows you to store and access the request data anywhere in your project, useful for logging.
-- [Starlette Exporter](https://github.com/stephenhillier/starlette_exporter) - One more prometheus integration for FastAPI and Starlette.
-- [Starlette OpenTracing](https://github.com/acidjunk/starlette-opentracing) - Opentracing support for Starlette and FastAPI.
-- [Starlette Prometheus](https://github.com/perdy/starlette-prometheus) - Prometheus integration for FastAPI and Starlette.
-- [Strawberry GraphQL](https://github.com/strawberry-graphql/strawberry) - Python GraphQL library based on dataclasses.
+- [FastAPI Contrib](https://github.com/identixone/fastapi_contrib) - 一组有观点的实用程序：分页，身份验证中间件，权限，自定义异常处理程序，MongoDB支持和Opentracing中间件。
+- [FastAPI CRUDRouter](https://github.com/awtkns/fastapi-crudrouter) - 一个自动创建和记录CRUD路由的FastAPI路由器，用于你的模型。
+- [FastAPI Events](https://github.com/melvinkcx/fastapi-events) - 用于FastAPI和Starlette的异步事件调度/处理库。
+- [FastAPI FeatureFlags](https://github.com/Pytlicek/fastapi-featureflags) - 简单的FastAPI功能标志的实现。
+- [FastAPI Jinja](https://github.com/AGeekInside/fastapi-jinja) - 增加了Jinja模板语言到FastAPI的集成。
+- [FastAPI Lazy](https://github.com/yezz123/fastapi-lazy) - 一个懒惰的包，用于使用FastAPI启动你的项目。
+- [FastAPI Limiter](https://github.com/long2ice/fastapi-limiter) - 一个用于限制FastAPI请求的工具。
+- [FastAPI MQTT](https://github.com/sabuhish/fastapi-mqtt) - 一个 MQTT 协议的扩展。
+- [FastAPI Opentracing](https://github.com/wesdu/fastapi-opentracing) - Opentracing 中间件和数据库跟踪支持FastAPI。
+- [FastAPI Pagination](https://github.com/uriyyo/fastapi-pagination) - FastAPI 分页。
+- [FastAPI Plugins](https://github.com/madkote/fastapi-plugins) - Redis 和 Scheduler 插件。
+- [FastAPI ServiceUtils](https://github.com/skallfass/fastapi_serviceutils) - 用于创建API服务的生成器。
+- [FastAPI SocketIO](https://github.com/pyropy/fastapi-socketio) - FastAPI 和 SocketIO 的简单集成。
+- [FastAPI Utilities](https://github.com/dmontagu/fastapi-utils) - 重用的实用程序：基于类的视图，响应推断路由器，定期任务，计时中间件，SQLAlchemy会话，OpenAPI规范简化。
+- [FastAPI Websocket Pub/Sub](https://github.com/authorizon/fastapi_websocket_pubsub) - Websocket pub/sub 模式，使其在云中的任何地方都可以轻松访问和扩展。
+- [FastAPI Websocket RPC](https://github.com/authorizon/fastapi_websocket_rpc) - 通过 Websockets 的 RPC（双向 JSON RPC）变得简单、健壮和生产就绪。
+- [OpenTelemetry FastAPI Instrumentation](https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-fastapi) - [OpenTelemetry](https://opentelemetry.io/) 是一个开放的自动跟踪工具包，用于监视应用程序的性能和可用性。
+- [Prerender Python Starlette](https://github.com/BeeMyDesk/prerender-python-starlette) - 一个用于预渲染爬虫的中间件。
+- [Prometheus FastAPI Instrumentator](https://github.com/trallnag/prometheus-fastapi-instrumentator) - 一个可配置和模块化的 Prometheus Instrumentator 用于你的 FastAPI 应用程序。
+- [SlowApi](https://github.com/laurents/slowapi) - 限速器（基于 [Flask-Limiter](https://flask-limiter.readthedocs.io)）。
+- [Starlette Context](https://github.com/tomwojcik/starlette-context) - 允许你在项目的任何地方存储和访问请求数据，对于日志记录很有用。
+- [Starlette Exporter](https://github.com/stephenhillier/starlette_exporter) - 一个用于 FastAPI 和 Starlette 的 Prometheus 集成。
+- [Starlette OpenTracing](https://github.com/acidjunk/starlette-opentracing) - 对于 Starlette 和 FastAPI 的 Opentracing 支持。
+- [Starlette Prometheus](https://github.com/perdy/starlette-prometheus) - FastAPI 和 Starlette 的 Prometheus 集成。
+- [Strawberry GraphQL](https://github.com/strawberry-graphql/strawberry) - 一个基于dataclasses的 Python GraphQL 库。
 
-## Resources
+## Resources 
 
-### Official Resources
+### Official Resources and Tutorials (官方资源和教程)
 
-- [Documentation](https://fastapi.tiangolo.com/) - Comprehensive documentation.
-- [Tutorial](https://fastapi.tiangolo.com/tutorial/) - Official tutorial showing you how to use FastAPI with most of its features, step by step.
-- [Source Code](https://github.com/tiangolo/fastapi) - Hosted on GitHub.
-- [Discord](https://discord.com/invite/VQjSZaeJmf) - Chat with other FastAPI users.
+- [Documentation](https://fastapi.tiangolo.com/) - FastAPI 官方链接。
+- [Tutorial](https://fastapi.tiangolo.com/tutorial/) - FastAPI 官方教程，逐步展示了如何使用 FastAPI 的大部分功能。
+- [Source Code](https://github.com/tiangolo/fastapi) - FastAPI 的源代码。
+- [Discord](https://discord.com/invite/VQjSZaeJmf) - 与其他 FastAPI 用户聊天。
 
-### External Resources
+### External Resources (外部资源)
 
-- [TestDriven.io FastAPI](https://testdriven.io/blog/topics/fastapi/) - Multiple FastAPI-specific articles that focus on developing and testing production-ready RESTful APIs, serving up machine learning models, and more.
+- [TestDriven.io FastAPI](https://testdriven.io/blog/topics/fastapi/) - 多篇专注于开发和测试生产就绪的 RESTful API、提供机器学习模型等的 FastAPI 特定文章。
 
-### Podcasts
+### Podcasts (播客)
 
-- [Build The Next Generation Of Python Web Applications With FastAPI](https://www.pythonpodcast.com/fastapi-web-application-framework-episode-259/) - In this episode of [Podcast Init](https://www.pythonpodcast.com/), the create of FastAPI, [Sebastián Ramirez](https://tiangolo.com/), shares his motivations for building FastAPI and how it works under the hood.
-- [FastAPI on PythonBytes](https://pythonbytes.fm/episodes/show/123/time-to-right-the-py-wrongs?time_in_sec=855) - Nice overview of the project.
+- [Build The Next Generation Of Python Web Applications With FastAPI](https://www.pythonpodcast.com/fastapi-web-application-framework-episode-259/) - 这个播客的第 259 集 [Podcast Init](https://www.pythonpodcast.com/), FastAPI 的创建者 [Sebastián Ramirez](https://tiangolo.com/) 分享了他创建 FastAPI 的动机以及它的工作原理。
+- [FastAPI on PythonBytes](https://pythonbytes.fm/episodes/show/123/time-to-right-the-py-wrongs?time_in_sec=855) - 不错的项目概述。
 
-### Articles
+### Articles (文章)
 
 - [FastAPI has Ruined Flask Forever for Me](https://towardsdatascience.com/fastapi-has-ruined-flask-forever-for-me-73916127da)
-- [Why we switched from Flask to FastAPI for production machine learning](https://medium.com/@calebkaiser/why-we-switched-from-flask-to-fastapi-for-production-machine-learning-765aab9b3679) - In-depth look at why you may want to move from Flask to FastAPI.
+- [Why we switched from Flask to FastAPI for production machine learning](https://medium.com/@calebkaiser/why-we-switched-from-flask-to-fastapi-for-production-machine-learning-765aab9b3679) - 深入了解为什么你可能想从 Flask 迁移到 FastAPI。
 
-### Tutorials
+### Tutorials (教程)
 
-- [Async SQLAlchemy with FastAPI](https://stribny.name/blog/fastapi-asyncalchemy/) - Learn how to use SQLAlchemy asynchronously.
-- [Build and Secure an API in Python with FastAPI](https://blog.yezz.me/blog/Build-and-Secure-an-API-in-Python-with-FastAPI) - Secure and maintain an API based on FastAPI and SQLAlchemy.
-- [Deploy a Dockerized FastAPI App to Google Cloud Platform](https://towardsdatascience.com/deploy-a-dockerized-fastapi-app-to-google-cloud-platform-24f72266c7ef) - A short guide to deploying a Dockerized Python app to Google Cloud Platform using Cloud Run and a SQL instance.
+- [Async SQLAlchemy with FastAPI](https://stribny.name/blog/fastapi-asyncalchemy/) - 学习如何异步使用 SQLAlchemy。
+- [Build and Secure an API in Python with FastAPI](https://blog.yezz.me/blog/Build-and-Secure-an-API-in-Python-with-FastAPI) - 保护和维护基于 FastAPI 和 SQLAlchemy 的 API。
+- [Deploy a Dockerized FastAPI App to Google Cloud Platform](https://towardsdatascience.com/deploy-a-dockerized-fastapi-app-to-google-cloud-platform-24f72266c7ef) - 一个简短的指南，用于使用 Cloud Run 和 SQL 实例将 Docker 化的 Python 应用部署到 Google Cloud Platform。
 - [Deploy Machine Learning Models with Keras, FastAPI, Redis and Docker](https://medium.com/analytics-vidhya/deploy-machine-learning-models-with-keras-fastapi-redis-and-docker-4940df614ece)
-- [Deploying Iris Classifications with FastAPI and Docker](https://towardsdatascience.com/deploying-iris-classifications-with-fastapi-and-docker-7c9b83fdec3a) - Dockerizing a FastAPI application.
-- [Developing and Testing an Asynchronous API with FastAPI and Pytest](https://testdriven.io/blog/fastapi-crud/) - Develop and test an asynchronous API with FastAPI, Postgres, Pytest, and Docker using Test-Driven Development.
-- [FastAPI for Flask Users](https://amitness.com/2020/06/fastapi-vs-flask/) - Learn FastAPI with a side-by-side code comparison to Flask.
-- [FastAPI Microservice Patterns](https://florian-kromer.medium.com/fastapi-microservice-patterns-3052c1241019) - Blog post series with exemplary implementations of microservice patterns.
-  - [Local Development Environment](https://florian-kromer.medium.com/fastapi-microservice-patterns-local-development-environment-12182e786f1c) - Skaffold, docker, kubectl and minikube in a nutshell.
-  - [Service discovery in Container Orchestration Platforms](https://florian-kromer.medium.com/fastapi-microservice-patterns-service-discovery-in-container-orchestration-platforms-290c00d1ad8) - Enabling FastAPI service communication in Kubernetes explained.
-  - [Asynchronous Communication](https://florian-kromer.medium.com/fastapi-microservice-patterns-asynchronous-communication-45a3b68f8bb8) - Enabling loosely coupled services with messaging.
-  - [Application Monitoring](https://medium.com/swlh/fastapi-microservice-patterns-application-monitoring-49fcb7341d9a) - Application metric monitoring with Prometheus and Grafana.
-  - [Serverless Deployment](https://medium.com/swlh/fastapi-microservice-serverless-deployment-41a6d21e5cb3) - About the current status of the compatibility between FastAPI and Kubernetes-native FaaS platforms.
-- [Getting started with GraphQL in Python with FastAPI and Ariadne](https://blog.yezz.me/blog/Getting-started-with-GraphQL-in-Python-with-FastAPI-and-Ariadne) - Generate a FullStack playground using FastAPI, GraphQL and Ariadne.
-- [How to monitor your FastAPI service](https://guitton.co/posts/fastapi-monitoring) - Explains how to implement Application Performance Monitoring (APM) using OpenTelemetry and Datadog/Jaeger.
-- [Implementing FastAPI Services – Abstraction and Separation of Concerns](https://camillovisini.com/article/abstracting-fastapi-services/) - FastAPI application and service structure for a more maintainable codebase.
-- [Introducing FARM Stack - FastAPI, React, and MongoDB](https://www.mongodb.com/developer/languages/python/farm-stack-fastapi-react-mongodb/) - Getting started with a complete FastAPI web application stack.
-- [Multitenancy with FastAPI, SQLAlchemy and PostgreSQL](https://mergeboard.com/blog/6-multitenancy-fastapi-sqlalchemy-postgresql/) - Learn how to make FastAPI applications multi-tenant ready.
-- [Porting Flask to FastAPI for ML Model Serving](https://www.pluralsight.com/tech-blog/porting-flask-to-fastapi-for-ml-model-serving/) - Comparison of Flask vs FastAPI.
-- [Real-time data streaming using FastAPI and WebSockets](https://stribny.name/blog/2020/07/real-time-data-streaming-using-fastapi-and-websockets/) - Learn how to stream data from FastAPI directly into a real-time chart.
-- [Running FastAPI applications in production](https://stribny.name/blog/fastapi-production/) - Use Gunicorn with systemd for production deployments.
-- [Serving Machine Learning Models with FastAPI in Python](https://medium.com/@8B_EC/tutorial-serving-machine-learning-models-with-fastapi-in-python-c1a27319c459) - Use FastAPI to quickly and easily deploy and serve machine learning models in Python as a RESTful API.
-- [Streaming video with FastAPI](https://stribny.name/blog/fastapi-video/) - Learn how to serve video streams.
-- [Using Hypothesis and Schemathesis to Test FastAPI](https://testdriven.io/blog/fastapi-hypothesis/) - Apply property-based testing to FastAPI.
+- [Deploying Iris Classifications with FastAPI and Docker](https://towardsdatascience.com/deploying-iris-classifications-with-fastapi-and-docker-7c9b83fdec3a) - 将 FastAPI 应用程序 Docker 化。
+- [Developing and Testing an Asynchronous API with FastAPI and Pytest](https://testdriven.io/blog/fastapi-crud/) - 使用 TDD 开发和测试使用 FastAPI、Postgres、Pytest 和 Docker 的异步 API。
+- [FastAPI for Flask Users](https://amitness.com/2020/06/fastapi-vs-flask/) - 通过与 Flask 的并排代码比较学习 FastAPI。
+- [FastAPI Microservice Patterns](https://florian-kromer.medium.com/fastapi-microservice-patterns-3052c1241019) - 一个包含微服务模式示例实现的博客系列。
+  - [Local Development Environment](https://florian-kromer.medium.com/fastapi-microservice-patterns-local-development-environment-12182e786f1c) - 简而言之，Skaffold、docker、kubectl 和 minikube。
+  - [Service discovery in Container Orchestration Platforms](https://florian-kromer.medium.com/fastapi-microservice-patterns-service-discovery-in-container-orchestration-platforms-290c00d1ad8) - 解释了在 Kubernetes 中启用 FastAPI 服务通信。
+  - [Asynchronous Communication](https://florian-kromer.medium.com/fastapi-microservice-patterns-asynchronous-communication-45a3b68f8bb8) - 通过消息使服务松耦合。
+  - [Application Monitoring](https://medium.com/swlh/fastapi-microservice-patterns-application-monitoring-49fcb7341d9a) - 使用 Prometheus 和 Grafana 监控应用程序指标。
+  - [Serverless Deployment](https://medium.com/swlh/fastapi-microservice-serverless-deployment-41a6d21e5cb3) - 关于 FastAPI 与 Kubernetes 原生 FaaS 平台兼容性的当前状态。
+- [Getting started with GraphQL in Python with FastAPI and Ariadne](https://blog.yezz.me/blog/Getting-started-with-GraphQL-in-Python-with-FastAPI-and-Ariadne) - 使用 FastAPI、GraphQL 和 Ariadne 生成一个 FullStack 沙盒。
+- [How to monitor your FastAPI service](https://guitton.co/posts/fastapi-monitoring) - 解释了如何使用 OpenTelemetry 和 Datadog/Jaeger 实现应用程序性能监控（APM）。
+- [Implementing FastAPI Services – Abstraction and Separation of Concerns](https://camillovisini.com/article/abstracting-fastapi-services/) - FastAPI 应用程序和服务结构，以实现更易维护的代码库。
+- [Introducing FARM Stack - FastAPI, React, and MongoDB](https://www.mongodb.com/developer/languages/python/farm-stack-fastapi-react-mongodb/) - 一个完整的 FastAPI Web 应用程序栈的入门指南。
+- [Multitenancy with FastAPI, SQLAlchemy and PostgreSQL](https://mergeboard.com/blog/6-multitenancy-fastapi-sqlalchemy-postgresql/) - 学习如何使 FastAPI 应用程序具有多租户功能。
+- [Porting Flask to FastAPI for ML Model Serving](https://www.pluralsight.com/tech-blog/porting-flask-to-fastapi-for-ml-model-serving/) - 一个 Flask 和 FastAPI 模型服务的对比。
+- [Real-time data streaming using FastAPI and WebSockets](https://stribny.name/blog/2020/07/real-time-data-streaming-using-fastapi-and-websockets/) - 学习如何将数据从 FastAPI 直接流式传输到实时图表中。
+- [Running FastAPI applications in production](https://stribny.name/blog/fastapi-production/) - 使用 Gunicorn 和 systemd 进行生产部署。
+- [Serving Machine Learning Models with FastAPI in Python](https://medium.com/@8B_EC/tutorial-serving-machine-learning-models-with-fastapi-in-python-c1a27319c459) - 使用 FastAPI 快速轻松地部署和提供 Python 中的机器学习模型作为 RESTful API。
+- [Streaming video with FastAPI](https://stribny.name/blog/fastapi-video/) - 学习如何提供视频流。
+- [Using Hypothesis and Schemathesis to Test FastAPI](https://testdriven.io/blog/fastapi-hypothesis/) - 使用属性基础测试来测试 FastAPI。
 
-### Talks
+### Talks (演讲)
 
 - [PyConBY 2020: Serve ML models easily with FastAPI](https://www.youtube.com/watch?v=z9K5pwb0rt8) - From the talk by Sebastian Ramirez you will learn how to easily build a production-ready web (JSON) API for your ML models with FastAPI, including best practices by default.
 - [PyCon UK 2019: FastAPI from the ground up](https://www.youtube.com/watch?v=3DLwPcrE5mA) - This talk shows how to build a simple REST API for a database from the ground up using FastAPI.
 
-### Videos
+### Videos (视频)
 
 - [Building a Stock Screener with FastAPI](https://www.youtube.com/watch?v=5GorMC2lPpk) - A you build a web-based stock screener with FastAPI, you'll be introduced to many of FastAPI's features, including Pydantic models, dependency injection, background tasks, and SQLAlchemy integration.
 - [Building Web APIs Using FastAPI](https://www.youtube.com/watch?v=Pe66M8mn-wA) - Use FastAPI to build a web application programming interface (RESTful API).
@@ -208,20 +207,20 @@
 - [FastAPI vs. Django vs. Flask](https://www.youtube.com/watch?v=9YBAOYQOzWs) - Which framework is best for Python in 2020? Which uses async/await the best? Which is the fastest?
 - [Serving Machine Learning Models As API with FastAPI](https://www.youtube.com/watch?v=mkDxuRvKUL8) - Build a machine learning API with FastAPI.
 
-### Courses
+### Courses (课程)
 
 - [Test-Driven Development with FastAPI and Docker](https://testdriven.io/courses/tdd-fastapi/) - Learn how to build, test, and deploy a text summarization microservice with Python, FastAPI, and Docker.
 - [Modern APIs with FastAPI and Python](https://training.talkpython.fm/courses/getting-started-with-fastapi) - A course designed to get you creating new APIs running in the cloud with FastAPI quickly.
 - [Full Web Apps with FastAPI Course](https://training.talkpython.fm/courses/full-html-web-applications-with-fastapi) - You'll learn to build full web apps with FastAPI, equivalent to what you can do with Flask or Django.
 - [The Definitive Guide to Celery and FastAPI](https://testdriven.io/courses/fastapi-celery/) - Learn how to add Celery to a FastAPI application to provide asynchronous task processing.
 
-### Best Practices
+### Best Practices (最佳实践)
 
 - [FastAPI Best Practices](https://github.com/zhanymkanov/fastapi-best-practices) - Collection of best practices in a GitHub repo.
 
 ## Hosting
 
-### PaaS
+### PaaS (平台即服务)
 
 (Platforms-as-a-Service)
 
@@ -231,7 +230,7 @@
 - [Microsoft Azure App Service](https://azure.microsoft.com/en-us/products/app-service/)
 - [Deta](https://www.deta.sh/) ([example](https://dev.to/athulcajay/fastapi-deta-ni5))
 
-### IaaS
+### IaaS (基础设施即服务)
 
 (Infrastructure-as-a-Service)
 
@@ -240,7 +239,7 @@
 - [Digital Ocean](https://www.digitalocean.com/)
 - [Linode](https://www.linode.com/)
 
-### Serverless
+### Serverless (无服务器)
 
 Frameworks:
 
@@ -255,7 +254,7 @@ Compute:
 - [Azure Functions](https://azure.microsoft.com/en-us/products/functions/)
 - [Google Cloud Run](https://cloud.google.com/run) ([example](https://github.com/anthonycorletti/cloudrun-fastapi))
 
-## Projects
+## Projects 
 
 ### Boilerplate
 
