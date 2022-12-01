@@ -5,7 +5,7 @@ Awesome FastAPI
 <!--rehype:style=font-size: 38px; border-bottom: 0; display: flex; min-height: 260px; align-items: center; justify-content: center;-->
 
 [![Awesome](https://jaywcjlove.github.io/sb/ico/awesome.svg)](https://github.com/sindresorhus/awesome) 
-[![jaywcjlove/sb](https://jaywcjlove.github.io/sb/lang/chinese.svg)](README.md) 
+[![jaywcjlove/sb](https://jaywcjlove.github.io/sb/lang/english.svg)](README-en.md) 
 [![Gitter](https://jaywcjlove.github.io/sb/ico/gitter.svg)](#) 
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](#) 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjaywcjlove%2Fawesome-mac.svg?type=shield)](#)
