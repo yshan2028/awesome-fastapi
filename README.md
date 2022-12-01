@@ -61,35 +61,36 @@
 
 #### ORMs
 
-- [FastAPI SQLAlchemy](https://github.com/mfreeborn/fastapi-sqlalchemy) - Simple integration between FastAPI and [SQLAlchemy](https://www.sqlalchemy.org/).
-- [Fastapi-SQLA](https://github.com/dialoguemd/fastapi-sqla) - SQLAlchemy extension for FastAPI with support for pagination, asyncio, and pytest.
-- [FastAPIwee](https://github.com/Ignisor/FastAPIwee) - A simple way to create REST API based on [PeeWee](https://github.com/coleifer/peewee) models.
-- [GINO](https://github.com/python-gino/gino) - A lightweight asynchronous ORM built on top of SQLAlchemy core for Python asyncio.
+- [FastAPI SQLAlchemy](https://github.com/mfreeborn/fastapi-sqlalchemy) - FastAPI 和 [SQLAlchemy](https://www.sqlalchemy.org/) 之间的简单集成。
+- [Fastapi-SQLA](https://github.com/dialoguemd/fastapi-sqla) - SQL Alchemy 扩展用于快速 API，支持分页、异步和 pytest。
+- [FastAPIwee](https://github.com/Ignisor/FastAPIwee) - 基于 [PeeWee](https://github.com/coleifer/peewee) 模型创建 REST API 的简单方法
+- [GINO](https://github.com/python-gino/gino) - 一个基于Python异步，建立在 SQLAlchemy 核心之上轻量级异步 ORM。
   - [FastAPI Example](https://github.com/leosussan/fastapi-gino-arq-uvicorn)
-- [ORM](https://github.com/encode/orm) - An async ORM.
-- [ormar](https://collerek.github.io/ormar/) - Ormar is an async ORM that uses Pydantic validation and can be used directly in FastAPI requests and responses so you are left with only one set of models to maintain. Alembic migrations included.
-  - [FastAPI Example](https://collerek.github.io/ormar/fastapi/) - Using FastAPI with ormar.
-- [Piccolo](https://github.com/piccolo-orm/piccolo) - An async ORM and query builder, supporting Postgres and SQLite, with batteries (migrations, security, etc).
-  - [FastAPI Examples](https://github.com/piccolo-orm/piccolo_examples) - Using FastAPI with Piccolo.
-- [Prisma Client Python](https://github.com/RobertCraigie/prisma-client-py) - An auto-generated, fully type safe ORM powered by Pydantic and tailored specifically for your schema - supports SQLite, PostgreSQL, MySQL, MongoDB, MariaDB and more.
-  - [FastAPI Example](https://github.com/RobertCraigie/prisma-client-py/tree/main/examples/fastapi-basic)
-- [Tortoise ORM](https://tortoise.github.io) - An easy-to-use asyncio ORM (Object Relational Mapper) inspired by Django.
-  - [FastAPI Example](https://tortoise.github.io/examples/fastapi.html) - An example of the Tortoise-ORM FastAPI integration.
+- [ORM](https://github.com/encode/orm) - 一个异步 ORM.
+- [ormar](https://collerek.github.io/ormar/) - Ormar 是一个异步 ORM，可以直接用于FastAPI请求和响应，因此你只需要维护一套模型，包含 Alembic 迁移
+  - [FastAPI Example](https://collerek.github.io/ormar/fastapi/) - 在ormar使用FastAPI框架.
+- [Piccolo](https://github.com/piccolo-orm/piccolo) - 一个异步ORM和查询生成器，支持Postgres和SQLite，带有功能 (迁移、安全等).
+  - [FastAPI Examples](https://github.com/piccolo-orm/piccolo_examples) - 在Piccolo 使用FastAPI框架.
+- [Prisma Client Python](https://github.com/RobertCraigie/prisma-client-py) - 一个由Pydantic提供的自动生成的、全部类型安全的ORM，并为你的模式专门定制 - 支持SQLite、PostgreSQL、MySQL、MongoDB、MariaDB等。
+  - [FastAPI Example](https://github.com/RobertCraigie/prisma-client-py/tree/main/examples/fastapi-basic) - FastAPI 示例
+- [Tortoise ORM](https://tortoise.github.io) - 一个易于使用的异步 ORM（对象关系映射器），灵感来自Django
+  - [FastAPI Example](https://tortoise.github.io/examples/fastapi.html) - 一个 Tortoise-ORM FastAPI 集成的例子.
   - [Tutorial: Setting up Tortoise ORM with FastAPI](https://web.archive.org/web/20200523174158/https://robwagner.dev/tortoise-fastapi-setup/)
-  - [Aerich](https://github.com/tortoise/aerich) - Tortoise ORM migrations tools.
-- [SQLModel](https://sqlmodel.tiangolo.com/) - SQLModel (which is powered by Pydantic and SQLAlchemy) is a library for interacting with SQL databases from Python code, with Python objects.
+  - [Aerich](https://github.com/tortoise/aerich) - Tortoise ORM 迁移工具.
+- [SQLModel](https://sqlmodel.tiangolo.com/) - (由Pydantic和SQLAlchemy驱动)是一个用于与Python代码交互的SQL数据库的库，具有Python对象。
+  - [FastAPI Example](
 
 #### Query Builders
 
-- [asyncpgsa](https://github.com/CanopyTax/asyncpgsa) - A wrapper around [asyncpg](https://github.com/MagicStack/asyncpg) for use with [SQLAlchemy Core](https://docs.sqlalchemy.org/en/latest/core/).
-- [Databases](https://github.com/encode/databases) - Async SQL query builder that works on top of the [SQLAlchemy Core](https://docs.sqlalchemy.org/en/latest/core/) expression language.
+- [asyncpgsa](https://github.com/CanopyTax/asyncpgsa) - 一个用于 [SQLAlchemy Core](https://docs.sqlalchemy.org/en/latest/core/) 的 [asyncpg](https://github.com/MagicStack/asyncpg)的包装器。
+- [Databases](https://github.com/encode/databases) - 异步sql查询构建器，基于 [SQLAlchemy Core](https://docs.sqlalchemy.org/en/latest/core/) 表达式语言。
 
 #### ODMs
 
-- [Beanie](https://github.com/roman-right/beanie) - Asynchronous Python ODM for MongoDB, based on [Motor](https://motor.readthedocs.io/en/stable/) and [Pydantic](https://pydantic-docs.helpmanual.io/), which supports data and schema migrations out of the box.
-- [MongoEngine](http://mongoengine.org/) - A Document-Object Mapper (think ORM, but for document databases) for working with MongoDB from Python.
-- [Motor](https://motor.readthedocs.io/) - Asynchronous Python driver for MongoDB.
-- [ODMantic](https://art049.github.io/odmantic/) - AsyncIO MongoDB ODM integrated with [Pydantic](https://pydantic-docs.helpmanual.io/).
+- [Beanie](https://github.com/roman-right/beanie) - 用于MongoDB的异步Python ODM，基于 [Motor](https://motor.readthedocs.io/en/stable/) 和 [Pydantic](https://pydantic-docs.helpmanual.io/), 支持数据和模式迁移。
+- [MongoEngine](http://mongoengine.org/) - 一个用于Python的MongoDB文档对象映射器（类似于ORM，但用于文档数据库）。
+- [Motor](https://motor.readthedocs.io/) -  异步MongoDB的Python驱动程序。
+- [ODMantic](https://art049.github.io/odmantic/) - AsyncIO MongoDB ODM 集成 [Pydantic](https://pydantic-docs.helpmanual.io/)
 
 #### Other Tools
 
