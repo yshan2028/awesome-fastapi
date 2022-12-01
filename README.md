@@ -94,31 +94,31 @@
 
 #### Other Tools
 
-- [Pydantic-SQLAlchemy](https://github.com/tiangolo/pydantic-sqlalchemy) - Convert SQLAlchemy models to [Pydantic](https://pydantic-docs.helpmanual.io/) models.
-- [FastAPI-CamelCase](https://nf1s.github.io/fastapi-camelcase/) - CamelCase JSON support for FastAPI utilizing [Pydantic](https://pydantic-docs.helpmanual.io/).
-  - [CamelCase Models with FastAPI and Pydantic](https://medium.com/analytics-vidhya/camel-case-models-with-fast-api-and-pydantic-5a8acb6c0eee) - Accompanying blog post from the author of the extension.
+- [Pydantic-SQLAlchemy](https://github.com/tiangolo/pydantic-sqlalchemy) - 将SQLAlchemy模型转换为 [Pydantic](https://pydantic-docs.helpmanual.io/) 模型。
+- [FastAPI-CamelCase](https://nf1s.github.io/fastapi-camelcase/) - 利用 [Pydantic](https://pydantic-docs.helpmanual.io/) 的CamelCase JSON支持。
+  - [CamelCase Models with FastAPI and Pydantic](https://medium.com/analytics-vidhya/camel-case-models-with-fast-api-and-pydantic-5a8acb6c0eee) - Accompanying blog post from the author of the extension. 随之而来的作者扩展的博客文章。
 
 ### Developer Tools
 
-- [FastAPI Code Generator](https://github.com/koxudaxi/fastapi-code-generator) - Create a FastAPI app from an OpenAPI file, enabling schema-driven development.
-- [FastAPI Client Generator](https://github.com/dmontagu/fastapi_client) - Generate a mypy- and IDE-friendly API client from an OpenAPI spec.
-- [FastAPI MVC](https://github.com/fastapi-mvc/fastapi-mvc) - Developer productivity tool for making high-quality FastAPI production-ready APIs.
-- [FastAPI Profiler](https://github.com/sunhailin-Leo/fastapi_profiler) - A FastAPI Middleware of joerick/pyinstrument to check your service performance.
-- [FastAPI Versioning](https://github.com/DeanWay/fastapi-versioning) - API versioning.
-- [Jupyter Notebook REST API](https://github.com/Invictify/Jupter-Notebook-REST-API) - Run your Jupyter notebooks as RESTful API endpoints.
-- [Manage FastAPI](https://github.com/ycd/manage-fastapi) - CLI tool for generating and managing FastAPI projects.
-- [msgpack-asgi](https://github.com/florimondmanca/msgpack-asgi) - Automatic [MessagePack](https://msgpack.org/) content negotiation.
+- [FastAPI Code Generator](https://github.com/koxudaxi/fastapi-code-generator) - 从OpenAPI文件创建FastAPI应用程序，从而实现模式驱动的开发。
+- [FastAPI Client Generator](https://github.com/dmontagu/fastapi_client) -  基于OpenAPI规范生成一个mypy和IDE友好的API客户端。
+- [FastAPI MVC](https://github.com/fastapi-mvc/fastapi-mvc) - 开发人员生产力工具，用于制作高质量的FastAPI生产就绪API。
+- [FastAPI Profiler](https://github.com/sunhailin-Leo/fastapi_profiler) - 一个基于joerick/pyinstrument，检查你的服务性能的FastAPI中间件。
+- [FastAPI Versioning](https://github.com/DeanWay/fastapi-versioning) - API 的版本控制.
+- [Jupyter Notebook REST API](https://github.com/Invictify/Jupter-Notebook-REST-API) - 运行你的Jupyter笔记本作为RESTful API端点。
+- [Manage FastAPI](https://github.com/ycd/manage-fastapi) - CLI 工具，用于生成和管理 FastAPI 项目。
+- [msgpack-asgi](https://github.com/florimondmanca/msgpack-asgi) - 自动 [MessagePack](https://msgpack.org/) 内容协商。
 
 ### Email
 
-- [FastAPI Mail](https://github.com/sabuhish/fastapi-mail) - Lightweight mail system for sending emails and attachments (individual and bulk).
+- [FastAPI Mail](https://github.com/sabuhish/fastapi-mail) - 轻量级邮件系统，用于发送电子邮件和附件（单个和批量）。
 
 ### Utils
 
-- [ASGI Correlation ID](https://github.com/snok/asgi-correlation-id) - Request ID logging middleware.
-- [FastAPI Cache](https://github.com/comeuplater/fastapi_cache) - A simple lightweight cache system.
-- [FastAPI Cache](https://github.com/long2ice/fastapi-cache) - A tool to cache FastAPI response and function results, with support for Redis, Memcached, DynamoDB, and in-memory backends.
-- [FastAPI Chameleon](https://github.com/mikeckennedy/fastapi-chameleon) - Adds integration of the Chameleon template language to FastAPI.
+- [ASGI Correlation ID](https://github.com/snok/asgi-correlation-id) - 请求ID日志中间件。
+- [FastAPI Cache](https://github.com/comeuplater/fastapi_cache) - 一个简单的轻量级缓存系统。
+- [FastAPI Cache](https://github.com/long2ice/fastapi-cache) - 一个用于缓存FastAPI响应和函数结果的工具，支持Redis，Memcached，DynamoDB和内存后端。
+- [FastAPI Chameleon](https://github.com/mikeckennedy/fastapi-chameleon) - 增加了Chameleon模板语言到FastAPI的集成。
 - [FastAPI Contrib](https://github.com/identixone/fastapi_contrib) - Opinionated set of utilities: pagination, auth middleware, permissions, custom exception handlers, MongoDB support, and Opentracing middleware.
 - [FastAPI CRUDRouter](https://github.com/awtkns/fastapi-crudrouter) - A FastAPI router that automatically creates and documents CRUD routes for your models.
 - [FastAPI Events](https://github.com/melvinkcx/fastapi-events) - Asynchronous event dispatching/handling library for FastAPI and Starlette.
