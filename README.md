@@ -5,25 +5,20 @@ Awesome FastAPI
 <!--rehype:style=font-size: 38px; border-bottom: 0; display: flex; min-height: 260px; align-items: center; justify-content: center;-->
 
 [![Awesome](https://jaywcjlove.github.io/sb/ico/awesome.svg)](https://github.com/sindresorhus/awesome) 
-[![jaywcjlove/sb](https://jaywcjlove.github.io/sb/lang/english.svg)](README-en.md) 
-[![Gitter](https://jaywcjlove.github.io/sb/ico/gitter.svg)](https://gitter.im/awesome-mac/en?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge) 
-[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/jaywcjlove/awesome-mac/) 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjaywcjlove%2Fawesome-mac.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjaywcjlove%2Fawesome-mac?ref=badge_shield)
+[![jaywcjlove/sb](https://jaywcjlove.github.io/sb/lang/chinese.svg)](README.md) 
+[![Gitter](https://jaywcjlove.github.io/sb/ico/gitter.svg)](#) 
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](#) 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjaywcjlove%2Fawesome-mac.svg?type=shield)](#)
 [![Backers on Open Collective](https://opencollective.com/awesome-mac/backers/badge.svg)](#backers) 
 [![Sponsors on Open Collective](https://opencollective.com/awesome-mac/sponsors/badge.svg)](#sponsors)
 <!--rehype:style=text-align: center;-->
 
-> 与 FastAPI 相关的精选清单
-
-[FastAPI](https://fastapi.tiangolo.com/) 是一个用于构建 API 的现代、快速（高性能）的 web 框架，非常适合构建 RESTful API.
+>[FastAPI](https://fastapi.tiangolo.com/) 是一个用于构建 API 的现代、快速（高性能）的 web 框架，非常适合构建 RESTful API.
 
 **说明**
 
 [English](README-en.md) | [中文](README.md)
 
-![Open-Source Software][OSS Icon] 表示 **开源软件** ，点击进入 **开源** 仓库；\
-![Freeware][Freeware Icon] 表示 **免费** 使用，或者个人 **免费** ；\
-![Awesome List][awesome-list Icon] 表示项目的相应 **Awesome list** 的超链接；
 
 ## 目录
 - [Awesome FastAPI](#awesome-FastAPI)

@@ -1,13 +1,27 @@
 <!--lint disable double-link-->
 
-# Awesome FastAPI | [![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
+Awesome FastAPI
+===
+<!--rehype:style=font-size: 38px; border-bottom: 0; display: flex; min-height: 260px; align-items: center; justify-content: center;-->
 
-> A curated list of awesome things related to FastAPI.
+[![Awesome](https://jaywcjlove.github.io/sb/ico/awesome.svg)](https://github.com/sindresorhus/awesome) 
+[![jaywcjlove/sb](https://jaywcjlove.github.io/sb/lang/english.svg)](README-en.md) 
+[![Gitter](https://jaywcjlove.github.io/sb/ico/gitter.svg)](#) 
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](#) 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjaywcjlove%2Fawesome-mac.svg?type=shield)](#)
+[![Backers on Open Collective](https://opencollective.com/awesome-mac/backers/badge.svg)](#backers) 
+[![Sponsors on Open Collective](https://opencollective.com/awesome-mac/sponsors/badge.svg)](#sponsors)
+<!--rehype:style=text-align: center;-->
 
-[FastAPI](https://fastapi.tiangolo.com/) is a modern, high-performance, batteries-included Python web framework that's perfect for building RESTful APIs.
+>[FastAPI](https://fastapi.tiangolo.com/) is a RESTful API framework for modern and fast (high-performance) web applications.
+
+**Notes**
+
+[English](README-en.md) | [中文](README.md)
 
 ## Contents
-
+- [Awesome FastAPI](#awesome-FastAPI)
+- [Contents](#Contents)
 - [Third-Party Extensions](#third-party-extensions)
   - [Admin](#admin)
   - [Auth](#auth)
@@ -310,8 +324,4 @@ Compute:
 
 ## Sponsors
 
-Please support this open source project by checking out our sponsors:
-
-<a href="https://www.deta.sh/?ref=awesome-fastapi" target="_blank" title="The launchpad for all your (team's) ideas"><img src="images/deta.svg"></a>
-
-<a href="https://testdriven.io/courses/tdd-fastapi/?ref=awesome-fastapi" target="_blank" title="Learn to build high-quality web apps with best practices"><img src="images/testdriven.svg"></a>
+Translated based on the [Awesome-fastapi](https://github.com/mjhea0/awesome-fastapi) project, thanks to the original author for his contribution.
